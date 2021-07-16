@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.GameFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/StickView"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:gravity="center"
+            android:textSize="36sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <Button
+            android:id="@+id/pu1"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:onClick="pickOne"
+            android:text="Pick Up 1"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <Button
+            android:id="@+id/pu2"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:onClick="pickTwo"
+            android:text="Pick Up 2"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <Button
+            android:id="@+id/pu3"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:onClick="pickThree"
+            android:text="Pick Up 3"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</FrameLayout>
